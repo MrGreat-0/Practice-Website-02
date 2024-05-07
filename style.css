@@ -227,6 +227,18 @@ body {
 
         margin-right: 3vw;
         font-size: 3vw;
+        -webkit-text-decoration: underline 0.7px solid grey;
+        text-decoration: underline 0.7px solid grey;
+
+    }
+
+    #lnavr a:hover::before {
+
+        /* Set the scale to 0 to disable hover effect */
+
+        -webkit-transform: scaleX(0);
+        -ms-transform: scaleX(0);
+        transform: scaleX(0);
 
     }
 
